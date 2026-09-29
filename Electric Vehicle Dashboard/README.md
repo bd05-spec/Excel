@@ -1,8 +1,8 @@
-# âš¡ Electric Vehicle Population Dashboard
+# Electric Vehicle Population Dashboard
 
 > **Question:** What does the supplied electric-vehicle registration snapshot show about vehicle type, model year, state, manufacturer, electric range, and eligibility classification?
 
-This workbook summarizes **114,595 vehicle records** and organizes them into a dashboard with a KPI view and pivot summaries. It is useful for exploring the composition of this datasetâ€”not as a live count of vehicles on the road or a measure of new sales.
+This workbook summarizes **114,595 vehicle records** and organizes them into a dashboard with a KPI view and pivot summaries. It is useful for exploring the composition of this dataset-not as a live count of vehicles on the road or a measure of new sales.
 
 ## Snapshot KPIs
 
@@ -10,7 +10,7 @@ This workbook summarizes **114,595 vehicle records** and organizes them into a d
 | ---: | ---: | ---: | ---: |
 | **114,595** | **87,767 (76.59%)** | **26,828 (23.41%)** | **58,063 (50.67%)** |
 
-\* The source classifies a further **41,645 records (36.34%)** as â€œEligibility unknown as battery range has not been researchedâ€; **14,887 (12.99%)** are classified as not eligible due to low battery range. These are dataset labels, not a fresh eligibility determination.
+\* The source classifies a further **41,645 records (36.34%)** as "Eligibility unknown as battery range has not been researched"; **14,887 (12.99%)** are classified as not eligible due to low battery range. These are dataset labels, not a fresh eligibility determination.
 
 ## Dashboard flow
 
