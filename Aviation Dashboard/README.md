@@ -1,4 +1,4 @@
-# âœˆï¸ Aviation Accident Dashboard
+# Aviation Accident Dashboard
 
 > **Question:** What patterns appear in the supplied aviation accident records by year, airport/location, flight purpose, phase of flight, and aircraft damage?
 
@@ -10,7 +10,7 @@ This Excel project turns an **88,889-record** aviation dataset into a pivot-base
 | ---: | ---: | ---: | ---: |
 | **88,889** | **50,201** | **21,377** | **27,478** |
 
-These are counts/sums stored in the workbookâ€™s KPI summary, not rates adjusted for flight volume or exposure.
+These are counts/sums stored in the workbook's KPI summary, not rates adjusted for flight volume or exposure.
 
 ## How the workbook is organized
 
@@ -18,8 +18,8 @@ These are counts/sums stored in the workbookâ€™s KPI summary, not rates adj
 flowchart LR
     A[Data sheet<br/>88,889 aviation records] --> B[Pivot summaries]
     B --> C[Time<br/>accidents by year]
-    B --> D[Where and why<br/>location Â· purpose]
-    B --> E[Event characteristics<br/>flight phase Â· damage]
+    B --> D[Where and why<br/>location  |  purpose]
+    B --> E[Event characteristics<br/>flight phase  |  damage]
     B --> F[Injury KPI summary]
     C --> G[Dashboard]
     D --> G
@@ -43,5 +43,5 @@ flowchart LR
 
 - Counts by airport, year, purpose, or phase are counts of records in this workbook, not per-flight accident probabilities.
 - Injury totals are not normalized for exposure, aircraft occupancy, or flight hours.
-- The workbookâ€™s reporting date range/source provenance should be checked in the data before describing the analysis as current.
+- The workbook's reporting date range/source provenance should be checked in the data before describing the analysis as current.
 - Accident records can include missing or unknown classifications; use the supporting categories and filters rather than treating unknown as zero.
