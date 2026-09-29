@@ -1,18 +1,18 @@
-# ðŸ™ï¸ Chicago Arrest & Charge Records
+# Chicago Arrest & Charge Records
 
 > **Question:** How do the case/arrest records in this workbook vary over time and across recorded race and charge-description categories?
 
 This Excel analysis summarizes **585,418 rows** of Chicago case/arrest records. Pivot summaries and a dashboard organize the records by year, month, race, and charge description, helping a reader explore how the supplied records are distributed.
 
-> **Important:** The workbook contains arrest-date, case-number, and charge fields. Its counts describe records in this extractâ€”not all crime incidents, population-adjusted crime rates, or evidence that race causes criminal behavior.
+> **Important:** The workbook contains arrest-date, case-number, and charge fields. Its counts describe records in this extract-not all crime incidents, population-adjusted crime rates, or evidence that race causes criminal behavior.
 
 ## Workbook overview
 
 ```mermaid
 flowchart LR
     A[Data sheet<br/>585,418 rows] --> B[Pivot summaries]
-    B --> C[Time patterns<br/>year Â· month]
-    B --> D[Recorded attributes<br/>race Â· charge description]
+    B --> C[Time patterns<br/>year  |  month]
+    B --> D[Recorded attributes<br/>race  |  charge description]
     B --> E[Record and charge totals]
     C --> F[Dashboard]
     D --> F
@@ -23,7 +23,7 @@ flowchart LR
 
 | File | What to explore |
 | --- | --- |
-| [`Chicago Crime Analysis (1).xlsx`](<./Chicago Crime Analysis (1).xlsx>) | The complete project workbook. `Dashboard` presents the summaries; `Total Cases` holds record/charge totals; `By Year` and `By Month` summarize dates; `Race` groups the workbookâ€™s race field; `Charge Description` summarizes charge text; and `Data` holds the underlying 585,418 records. The source sheet includes case number, arrest date, dates, race, and up to four charge/statute fields. |
+| [`Chicago Crime Analysis (1).xlsx`](<./Chicago Crime Analysis (1).xlsx>) | The complete project workbook. `Dashboard` presents the summaries; `Total Cases` holds record/charge totals; `By Year` and `By Month` summarize dates; `Race` groups the workbook's race field; `Charge Description` summarizes charge text; and `Data` holds the underlying 585,418 records. The source sheet includes case number, arrest date, dates, race, and up to four charge/statute fields. |
 
 ## Open and refresh
 
