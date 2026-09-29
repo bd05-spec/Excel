@@ -1,4 +1,4 @@
-# ðŸ›ï¸ E-commerce Sales & Profit Dashboard
+# E-commerce Sales & Profit Dashboard
 
 > **Question:** How are sales, profit, and order quantity distributed across months, markets, customer segments, countries, and product categories?
 
@@ -43,6 +43,6 @@ Open the workbook in Microsoft Excel. Start with `Dashboard`; use the underlying
 ## Definitions and limitations
 
 - The workbook labels the measure `Sum of Profit Per Order`; it is not necessarily the same as audited accounting profit.
-- â€œSales,â€ â€œProfit Per Order,â€ and `Order Quantity` are aggregated as stored. Check the source definitions before comparing with another system.
+- "Sales," "Profit Per Order," and `Order Quantity` are aggregated as stored. Check the source definitions before comparing with another system.
 - The currency and time coverage are not stated in this README; verify the `Data` sheet/source before interpreting amounts as a specific currency or current performance.
-- Country and market comparisons are descriptive, not causal. Top/bottom groups depend on the workbookâ€™s pivot configuration and filters.
+- Country and market comparisons are descriptive, not causal. Top/bottom groups depend on the workbook's pivot configuration and filters.
