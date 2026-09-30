@@ -16,8 +16,8 @@ This Excel analysis summarizes **585,418 rows** of Chicago case/arrest records. 
 ```mermaid
 flowchart LR
     A[Data sheet<br/>585,418 rows] --> B[Pivot summaries]
-    B --> C[Time patterns<br/>year  |  month]
-    B --> D[Recorded attributes<br/>race  |  charge description]
+    B --> C[Time patterns<br/>year, month]
+    B --> D[Recorded attributes<br/>race, charge description]
     B --> E[Record and charge totals]
     C --> F[Dashboard]
     D --> F

@@ -23,8 +23,8 @@ These are counts/sums stored in the workbook's KPI summary, not rates adjusted f
 flowchart LR
     A[Data sheet<br/>88,889 aviation records] --> B[Pivot summaries]
     B --> C[Time<br/>accidents by year]
-    B --> D[Where and why<br/>location  |  purpose]
-    B --> E[Event characteristics<br/>flight phase  |  damage]
+    B --> D[Where and why<br/>location, purpose]
+    B --> E[Event characteristics<br/>flight phase, damage]
     B --> F[Injury KPI summary]
     C --> G[Dashboard]
     D --> G
