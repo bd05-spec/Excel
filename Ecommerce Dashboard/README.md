@@ -1,5 +1,10 @@
 # E-commerce Sales & Profit Dashboard
 
+![Project workflow overview](./project-overview.svg)
+
+> Workflow illustration only; it is not a dashboard screenshot or a source of measured results.
+
+
 > **Question:** How are sales, profit, and order quantity distributed across months, markets, customer segments, countries, and product categories?
 
 This workbook contains **110,764 order-line records** and a dashboard built around sales, profit-per-order, quantity, and margin. It supports an interactive-style business overview through prebuilt pivot summaries and charts, with country, market, segment, monthly, and top/bottom-category views.

@@ -1,5 +1,10 @@
 # Aviation Accident Dashboard
 
+![Project workflow overview](./project-overview.svg)
+
+> Workflow illustration only; it is not a dashboard screenshot or a source of measured results.
+
+
 > **Question:** What patterns appear in the supplied aviation accident records by year, airport/location, flight purpose, phase of flight, and aircraft damage?
 
 This Excel project turns an **88,889-record** aviation dataset into a pivot-based dashboard and a set of supporting summaries. The goal is to make several dimensions of accident history explorable in one workbook, with headline injury totals and breakdowns that can guide deeper questions.

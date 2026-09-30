@@ -1,5 +1,10 @@
 # Chicago Arrest & Charge Records
 
+![Project workflow overview](./project-overview.svg)
+
+> Workflow illustration only; it is not a dashboard screenshot or a source of measured results.
+
+
 > **Question:** How do the case/arrest records in this workbook vary over time and across recorded race and charge-description categories?
 
 This Excel analysis summarizes **585,418 rows** of Chicago case/arrest records. Pivot summaries and a dashboard organize the records by year, month, race, and charge description, helping a reader explore how the supplied records are distributed.

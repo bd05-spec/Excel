@@ -1,5 +1,10 @@
 # Electric Vehicle Population Dashboard
 
+![Project workflow overview](./project-overview.svg)
+
+> Workflow illustration only; it is not a dashboard screenshot or a source of measured results.
+
+
 > **Question:** What does the supplied electric-vehicle registration snapshot show about vehicle type, model year, state, manufacturer, electric range, and eligibility classification?
 
 This workbook summarizes **114,595 vehicle records** and organizes them into a dashboard with a KPI view and pivot summaries. It is useful for exploring the composition of this dataset-not as a live count of vehicles on the road or a measure of new sales.
